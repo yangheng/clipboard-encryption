@@ -1,6 +1,6 @@
 {
   "name": "clipboard-encryption",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "粘贴复制内容可实现局部和全部的数据加密",
   "main": "es/clipboard-encryption.js",
   "scripts": {
