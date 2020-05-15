@@ -1,6 +1,6 @@
 {
   "name": "clipboard-encryption",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "粘贴复制内容可实现局部和全部的数据加密",
   "main": "es/clipboard-encryption.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "clipboard",
     "customize"
   ],
-  "author": "kukuchong",
+  "author": "yangheng",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yangheng/clipboard-encryption/issues"
