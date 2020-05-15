@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>测试代码</title>
+  <script src="../umd/clipboard-encryption.js"></script>
+</head>
+<body>
+  <div>
+    <div>你好</div>
+    <div>你好啊</div>
+    <div>你好啊</div>
+    <div>你好</div>
+    <div>
+      这是一段不需要加密的文案
+      <p class="test">这是一段需要加密的文案</p>
+    </div>
+    <p class="test">这是一段需要加密的文案</p>
+  </div>
+</body>
+<script type="text/javascript">
+    (function() {
+      function encryption(data) {
+        const prefix = '2603219996260412024833021';
+        return escape(prefix + data.toString? data.toString(): data)
+      }
+      const demo = new ClipboardEncryption({classNames: ["test"], encryption})
+      demo.start()
+    })()
+</script>
+</html>
